@@ -1,0 +1,133 @@
+{
+  "generated_at": "2026-09-19T20:41:09.026427+00:00",
+  "source": "/Users/ericlu/Works/eugenio5-1/data/paper-v2",
+  "event_counts": {
+    "assumptions": 4,
+    "catalog": 5,
+    "collector_stopped": 1,
+    "coverage": 393,
+    "episode_checkpoint": 965,
+    "episode_end": 424,
+    "episode_start": 428,
+    "feed_gap": 188,
+    "identity_check": 624,
+    "identity_index": 491,
+    "run_end": 3,
+    "run_start": 4,
+    "screen_episode_end": 74,
+    "screen_episode_start": 90
+  },
+  "closed_trades_in_retained_events": 0,
+  "wins": 0,
+  "losses": 0,
+  "net_cad_in_retained_events": 0,
+  "close_reasons": {},
+  "median_holding_seconds": null,
+  "median_entry_latency_seconds": null,
+  "unresolved_positions": [],
+  "lifetime_realized_usdt": 0,
+  "latest_coverage": {
+    "at": 1789850466.6316311,
+    "started": 1789848967.0427709,
+    "run_id": "eedb69d2244f4164a755cca7ce750f64",
+    "markets": 4182,
+    "coins": 498,
+    "routes": 757,
+    "valid_routes": 4,
+    "active": 4,
+    "messages": 1988,
+    "reviewed_routes": 322,
+    "verified_candidates": 0,
+    "screening": {
+      "interval_seconds": 5,
+      "screened_routes": 757,
+      "queued_routes": 8,
+      "last_scan": 1789850465.883374,
+      "mode": "all-symbol quotes; bounded depth queue; brief gaps can be missed"
+    },
+    "network": {
+      "received_bytes": 207834442,
+      "receive_kib_s": 159.02,
+      "budget_kib_s": 256.0,
+      "requests": 4090,
+      "errors": 0,
+      "last_latency_ms": 197,
+      "stopped_reason": null,
+      "measurement": "HTTP compressed payload; excludes TLS/header overhead; 30s circuit breaker, not a router traffic shaper"
+    },
+    "paper_summary": {
+      "open": 0,
+      "pending": 0,
+      "closed": 0,
+      "rejected": 0,
+      "realized_usdt": 0,
+      "reserved_usdt": {}
+    },
+    "evaluations": 44907,
+    "status_counts": {
+      "screen_only": 748,
+      "insufficient_depth": 3,
+      "screen_gap": 1,
+      "invalid_book": 1,
+      "unverified_gap": 4
+    },
+    "venues": {
+      "bybit": {
+        "state": "screening",
+        "markets": 1142,
+        "error": null,
+        "last_message": 1789850464.8840792
+      },
+      "gate": {
+        "state": "screening",
+        "markets": 3040,
+        "error": null,
+        "last_message": 1789850465.870805
+      }
+    },
+    "excluded_count": 454,
+    "recording": {
+      "written": 6353,
+      "queue": 4,
+      "dropped": 0,
+      "error": null,
+      "last_error": null
+    },
+    "loop_lag_ms": 1.77,
+    "settings": {
+      "trade_cad": 50,
+      "cad_per_usdt": 1.38,
+      "fx_source": "MANUAL SCENARIO \u2014 not a live executable FX quote",
+      "spot_fee_bps": 20,
+      "perp_fee_bps": 6,
+      "execution_buffer_bps": 40,
+      "holding_cost_bps": 20,
+      "exit_gap_bps": 20,
+      "stale_seconds": 10,
+      "max_skew_seconds": 3,
+      "paper_timeout_seconds": 3600,
+      "paper_capital_cad": 20000,
+      "min_net_cad": 0.005,
+      "network_kib_per_second": 256,
+      "screen_interval_seconds": 5,
+      "screen_stale_seconds": 15,
+      "depth_route_interval_seconds": 1,
+      "max_depth_rtt_seconds": 2,
+      "paper_enabled": true,
+      "paper_latency_ms": 500,
+      "paper_limit_ticks": 1,
+      "paper_depth_fraction": 0.5,
+      "paper_max_open": 5,
+      "paper_entry_expiry_seconds": 30,
+      "paper_stop_loss_cad": 2
+    },
+    "discovery_version": 2
+  },
+  "limitations": [
+    "Deterministic delayed-IOC stress simulation, not real fills or calibrated probability.",
+    "Retained SQLite events span at most 30 days; lifetime state totals can span longer.",
+    "Five-second whole-universe polling and bounded depth confirmation can miss brief windows.",
+    "Funding is a conservative time/current-rate allowance, not actual settlement history.",
+    "No profits are imputed to unresolved positions or missing observations."
+  ]
+}

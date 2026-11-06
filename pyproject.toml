@@ -1,0 +1,10 @@
+[project]
+name = "parallax-research"
+version = "0.1.0"
+description = "Read-only spot/perpetual market research"
+requires-python = ">=3.12"
+dependencies = ["fastapi", "uvicorn", "httpx", "websockets"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]

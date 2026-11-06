@@ -1,0 +1,140 @@
+{
+  "G": {
+    "currency": "G",
+    "name": "Gravity",
+    "delisted": false,
+    "withdraw_disabled": false,
+    "withdraw_delayed": false,
+    "deposit_disabled": false,
+    "trade_disabled": false,
+    "fixed_rate": "",
+    "chain": "ETH",
+    "chains": [
+      {
+        "name": "ETH",
+        "addr": "0x9c7beba8f6ef6643abd725e45a4e8387ef260649",
+        "withdraw_disabled": false,
+        "withdraw_delayed": false,
+        "deposit_disabled": false
+      }
+    ],
+    "category": [],
+    "total_supply": "12000000000",
+    "market_cap": "62866628.4"
+  },
+  "BANK": {
+    "currency": "BANK",
+    "name": "Lorenzo Protocol",
+    "delisted": false,
+    "withdraw_disabled": false,
+    "withdraw_delayed": false,
+    "deposit_disabled": false,
+    "trade_disabled": false,
+    "fixed_rate": "",
+    "chain": "BSC",
+    "chains": [
+      {
+        "name": "BSC",
+        "addr": "0x3aee7602b612de36088f3ffed8c8f10e86ebf2bf",
+        "withdraw_disabled": false,
+        "withdraw_delayed": false,
+        "deposit_disabled": false
+      }
+    ],
+    "category": [],
+    "total_supply": "2100000000",
+    "market_cap": "12523612.5"
+  },
+  "BR": {
+    "currency": "BR",
+    "name": "Bedrock",
+    "delisted": false,
+    "withdraw_disabled": false,
+    "withdraw_delayed": false,
+    "deposit_disabled": false,
+    "trade_disabled": false,
+    "fixed_rate": "",
+    "chain": "BSC",
+    "chains": [
+      {
+        "name": "BSC",
+        "addr": "0xff7d6a96ae471bbcd7713af9cb1feeb16cf56b41",
+        "withdraw_disabled": false,
+        "withdraw_delayed": false,
+        "deposit_disabled": false
+      }
+    ],
+    "category": [],
+    "total_supply": "1000000000",
+    "market_cap": "309549215.98258"
+  },
+  "ZAMA": {
+    "currency": "ZAMA",
+    "name": "Zama",
+    "delisted": false,
+    "withdraw_disabled": false,
+    "withdraw_delayed": false,
+    "deposit_disabled": false,
+    "trade_disabled": false,
+    "fixed_rate": "",
+    "chain": "ETH",
+    "chains": [
+      {
+        "name": "ETH",
+        "addr": "0xa12cc123ba206d4031d1c7f6223d1c2ec249f4f3",
+        "withdraw_disabled": false,
+        "withdraw_delayed": false,
+        "deposit_disabled": false
+      }
+    ],
+    "category": [],
+    "total_supply": "11000000000",
+    "market_cap": "194669155.86622313"
+  },
+  "B2": {
+    "currency": "B2",
+    "name": "BSquared Network",
+    "delisted": false,
+    "withdraw_disabled": false,
+    "withdraw_delayed": false,
+    "deposit_disabled": false,
+    "trade_disabled": false,
+    "fixed_rate": "",
+    "chain": "BSC",
+    "chains": [
+      {
+        "name": "BSC",
+        "addr": "0x783c3f003f172c6ac5ac700218a357d2d66ee2a2",
+        "withdraw_disabled": false,
+        "withdraw_delayed": false,
+        "deposit_disabled": false
+      }
+    ],
+    "category": [],
+    "total_supply": "210000000",
+    "market_cap": "36004445.4"
+  },
+  "ARX": {
+    "currency": "ARX",
+    "name": "Arcium",
+    "delisted": false,
+    "withdraw_disabled": true,
+    "withdraw_delayed": false,
+    "deposit_disabled": true,
+    "trade_disabled": true,
+    "fixed_rate": "",
+    "chain": "ETH",
+    "chains": [
+      {
+        "name": "ETH",
+        "addr": "invalid-ARX-8700616-380",
+        "withdraw_disabled": true,
+        "withdraw_delayed": false,
+        "deposit_disabled": true
+      }
+    ],
+    "category": [],
+    "total_supply": "1000000000",
+    "market_cap": "40630643.562204"
+  }
+}

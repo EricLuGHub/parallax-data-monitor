@@ -1,0 +1,737 @@
+{
+  "database": "/Users/ericlu/Works/eugenio5-1/data/research.sqlite3",
+  "start_local": "2026-09-19T10:57:33.023156-04:00",
+  "end_local": "2026-09-19T13:35:32.699265-04:00",
+  "elapsed_minutes": 157.99460181792577,
+  "event_counts": {
+    "run_start": 4,
+    "assumptions": 4,
+    "coverage": 2056,
+    "feed_gap": 2488,
+    "catalog": 12,
+    "episode_start": 1564,
+    "episode_checkpoint": 2129,
+    "episode_end": 1563,
+    "run_end": 3
+  },
+  "end_reasons": {
+    "observation_skew": 1068,
+    "below_threshold": 300,
+    "stale_feed": 44,
+    "insufficient_depth": 14,
+    "invalid_book": 137
+  },
+  "all_episode_durations": {
+    "count": 1563,
+    "median_seconds": 4.578511714935303,
+    "max_seconds": 66.33983898162842
+  },
+  "threshold_end_durations": {
+    "count": 300,
+    "median_seconds": 0.562145471572876,
+    "max_seconds": 25.2481427192688
+  },
+  "latest_coverage": {
+    "at": 1789839323.4564412,
+    "started": 1789832752.9770508,
+    "run_id": "1237b6e693374e12a20b620b71382399",
+    "markets": 4182,
+    "coins": 498,
+    "routes": 757,
+    "valid_routes": 225,
+    "active": 1,
+    "messages": 27816326,
+    "evaluations": 4740336,
+    "status_counts": {
+      "below_threshold": 224,
+      "invalid_book": 331,
+      "stale_feed": 105,
+      "observation_skew": 93,
+      "minimum_quantity": 2,
+      "candidate": 1,
+      "insufficient_depth": 1
+    },
+    "venues": {
+      "bybit": {
+        "state": "streaming",
+        "error": null,
+        "markets": 1142,
+        "discovered_at": 1789838810.8608441,
+        "last_message": 1789839323.442375,
+        "reconnects": 548
+      },
+      "gate": {
+        "state": "streaming",
+        "error": null,
+        "markets": 3040,
+        "discovered_at": 1789838844.005495,
+        "last_message": 1789839323.116729,
+        "reconnects": 601
+      }
+    },
+    "excluded_count": 454,
+    "recording": {
+      "written": 27870609,
+      "queue": 1,
+      "dropped": 25,
+      "error": null
+    },
+    "loop_lag_ms": 3.24,
+    "settings": {
+      "trade_cad": 20,
+      "cad_per_usdt": 1.38,
+      "fx_source": "MANUAL SCENARIO \u2014 not a live executable FX quote",
+      "spot_fee_bps": 20,
+      "perp_fee_bps": 6,
+      "execution_buffer_bps": 20,
+      "holding_cost_bps": 10,
+      "exit_gap_bps": 0,
+      "min_net_usdt": 0.05,
+      "stale_seconds": 10,
+      "max_skew_seconds": 3,
+      "paper_timeout_seconds": 3600,
+      "paper_capital_cad": 20000,
+      "identity_overrides": {}
+    },
+    "discovery_version": 7
+  },
+  "assets": [
+    {
+      "base": "EDGE",
+      "episodes": 460,
+      "reasons": {
+        "observation_skew": 399,
+        "stale_feed": 7,
+        "invalid_book": 54
+      },
+      "duration": {
+        "count": 460,
+        "median_seconds": 7.302889943122864,
+        "max_seconds": 66.33983898162842
+      },
+      "first_net_usdt_median": 88.89681914186,
+      "entry_gap_bps_median": 61666.00354144622
+    },
+    {
+      "base": "SPCX",
+      "episodes": 316,
+      "reasons": {
+        "observation_skew": 294,
+        "stale_feed": 3,
+        "invalid_book": 19
+      },
+      "duration": {
+        "count": 316,
+        "median_seconds": 4.826935648918152,
+        "max_seconds": 33.54510712623596
+      },
+      "first_net_usdt_median": 0.490049744,
+      "entry_gap_bps_median": 454.9298259488858
+    },
+    {
+      "base": "ON",
+      "episodes": 122,
+      "reasons": {
+        "observation_skew": 97,
+        "stale_feed": 9,
+        "invalid_book": 16
+      },
+      "duration": {
+        "count": 122,
+        "median_seconds": 5.002245903015137,
+        "max_seconds": 21.381468057632446
+      },
+      "first_net_usdt_median": 5810.356524928,
+      "entry_gap_bps_median": 4025407.4932052335
+    },
+    {
+      "base": "G",
+      "episodes": 99,
+      "reasons": {
+        "observation_skew": 22,
+        "below_threshold": 68,
+        "stale_feed": 2,
+        "invalid_book": 7
+      },
+      "duration": {
+        "count": 99,
+        "median_seconds": 2.6879160404205322,
+        "max_seconds": 36.11088800430298
+      },
+      "first_net_usdt_median": 0.06562218,
+      "entry_gap_bps_median": 128.8996824210723
+    },
+    {
+      "base": "GAIB",
+      "episodes": 70,
+      "reasons": {
+        "observation_skew": 64,
+        "below_threshold": 1,
+        "stale_feed": 4,
+        "invalid_book": 1
+      },
+      "duration": {
+        "count": 70,
+        "median_seconds": 5.0603718757629395,
+        "max_seconds": 16.012853860855103
+      },
+      "first_net_usdt_median": 0.06450032328,
+      "entry_gap_bps_median": 127.23786298393176
+    },
+    {
+      "base": "AMC",
+      "episodes": 68,
+      "reasons": {
+        "observation_skew": 51,
+        "stale_feed": 16,
+        "invalid_book": 1
+      },
+      "duration": {
+        "count": 68,
+        "median_seconds": 4.926816940307617,
+        "max_seconds": 14.41130805015564
+      },
+      "first_net_usdt_median": 463.32632966,
+      "entry_gap_bps_median": 320350.35798467475
+    },
+    {
+      "base": "BANK",
+      "episodes": 60,
+      "reasons": {
+        "below_threshold": 50,
+        "observation_skew": 7,
+        "invalid_book": 3
+      },
+      "duration": {
+        "count": 60,
+        "median_seconds": 0.321694016456604,
+        "max_seconds": 25.2481427192688
+      },
+      "first_net_usdt_median": 0.05425836,
+      "entry_gap_bps_median": 120.02183107997251
+    },
+    {
+      "base": "BNC",
+      "episodes": 56,
+      "reasons": {
+        "observation_skew": 39,
+        "insufficient_depth": 14,
+        "invalid_book": 3
+      },
+      "duration": {
+        "count": 56,
+        "median_seconds": 3.9015148878097534,
+        "max_seconds": 12.964331865310669
+      },
+      "first_net_usdt_median": 9474.5832297876,
+      "entry_gap_bps_median": 6543275.815055395
+    },
+    {
+      "base": "BR",
+      "episodes": 54,
+      "reasons": {
+        "below_threshold": 27,
+        "observation_skew": 20,
+        "stale_feed": 2,
+        "invalid_book": 5
+      },
+      "duration": {
+        "count": 54,
+        "median_seconds": 2.7582753896713257,
+        "max_seconds": 25.435595989227295
+      },
+      "first_net_usdt_median": 0.06320833000000001,
+      "entry_gap_bps_median": 137.786623282865
+    },
+    {
+      "base": "ZAMA",
+      "episodes": 38,
+      "reasons": {
+        "below_threshold": 29,
+        "observation_skew": 3,
+        "invalid_book": 6
+      },
+      "duration": {
+        "count": 38,
+        "median_seconds": 1.2324390411376953,
+        "max_seconds": 36.99396991729736
+      },
+      "first_net_usdt_median": 0.05670707,
+      "entry_gap_bps_median": 121.49621857959613
+    },
+    {
+      "base": "B2",
+      "episodes": 28,
+      "reasons": {
+        "below_threshold": 21,
+        "observation_skew": 5,
+        "stale_feed": 1,
+        "invalid_book": 1
+      },
+      "duration": {
+        "count": 28,
+        "median_seconds": 1.4183921813964844,
+        "max_seconds": 15.120977878570557
+      },
+      "first_net_usdt_median": 0.059412599999999996,
+      "entry_gap_bps_median": 123.84104979412898
+    },
+    {
+      "base": "ARX",
+      "episodes": 21,
+      "reasons": {
+        "below_threshold": 16,
+        "observation_skew": 5
+      },
+      "duration": {
+        "count": 21,
+        "median_seconds": 0.825972318649292,
+        "max_seconds": 12.803545951843262
+      },
+      "first_net_usdt_median": 0.0596428,
+      "entry_gap_bps_median": 127.25344644750795
+    },
+    {
+      "base": "AR",
+      "episodes": 16,
+      "reasons": {
+        "below_threshold": 8,
+        "observation_skew": 7,
+        "invalid_book": 1
+      },
+      "duration": {
+        "count": 16,
+        "median_seconds": 3.3266098499298096,
+        "max_seconds": 15.468451023101807
+      },
+      "first_net_usdt_median": 0.056854760000000004,
+      "entry_gap_bps_median": 121.70630986128938
+    },
+    {
+      "base": "EVAA",
+      "episodes": 14,
+      "reasons": {
+        "observation_skew": 9,
+        "below_threshold": 5
+      },
+      "duration": {
+        "count": 14,
+        "median_seconds": 5.396419525146484,
+        "max_seconds": 15.589102983474731
+      },
+      "first_net_usdt_median": 0.07116754,
+      "entry_gap_bps_median": 131.19761913142744
+    },
+    {
+      "base": "LAB",
+      "episodes": 13,
+      "reasons": {
+        "below_threshold": 7,
+        "observation_skew": 3,
+        "invalid_book": 3
+      },
+      "duration": {
+        "count": 13,
+        "median_seconds": 1.5019099712371826,
+        "max_seconds": 11.467067956924438
+      },
+      "first_net_usdt_median": 0.058903996,
+      "entry_gap_bps_median": 122.78291350598226
+    },
+    {
+      "base": "STONK",
+      "episodes": 12,
+      "reasons": {
+        "below_threshold": 10,
+        "observation_skew": 1,
+        "invalid_book": 1
+      },
+      "duration": {
+        "count": 12,
+        "median_seconds": 0.7722785472869873,
+        "max_seconds": 3.423275947570801
+      },
+      "first_net_usdt_median": 0.054635885999999995,
+      "entry_gap_bps_median": 120.1221124748869
+    },
+    {
+      "base": "XTZ",
+      "episodes": 11,
+      "reasons": {
+        "below_threshold": 8,
+        "observation_skew": 3
+      },
+      "duration": {
+        "count": 11,
+        "median_seconds": 0.7209081649780273,
+        "max_seconds": 18.649741172790527
+      },
+      "first_net_usdt_median": 0.056415704,
+      "entry_gap_bps_median": 121.07870115575123
+    },
+    {
+      "base": "CAP",
+      "episodes": 10,
+      "reasons": {
+        "below_threshold": 10
+      },
+      "duration": {
+        "count": 10,
+        "median_seconds": 0.15900897979736328,
+        "max_seconds": 0.64377760887146
+      },
+      "first_net_usdt_median": 0.0565443,
+      "entry_gap_bps_median": 122.68618734542443
+    },
+    {
+      "base": "BTW",
+      "episodes": 10,
+      "reasons": {
+        "observation_skew": 8,
+        "below_threshold": 1,
+        "invalid_book": 1
+      },
+      "duration": {
+        "count": 10,
+        "median_seconds": 4.069364905357361,
+        "max_seconds": 9.070628881454468
+      },
+      "first_net_usdt_median": 0.10543394,
+      "entry_gap_bps_median": 173.5472679965308
+    },
+    {
+      "base": "EPIC",
+      "episodes": 9,
+      "reasons": {
+        "below_threshold": 3,
+        "observation_skew": 5,
+        "invalid_book": 1
+      },
+      "duration": {
+        "count": 9,
+        "median_seconds": 1.7821540832519531,
+        "max_seconds": 8.489662170410156
+      },
+      "first_net_usdt_median": 0.05440624,
+      "entry_gap_bps_median": 120.5347359193513
+    },
+    {
+      "base": "DRIFT",
+      "episodes": 9,
+      "reasons": {
+        "below_threshold": 4,
+        "observation_skew": 5
+      },
+      "duration": {
+        "count": 9,
+        "median_seconds": 2.8917391300201416,
+        "max_seconds": 11.891448020935059
+      },
+      "first_net_usdt_median": 0.07437184,
+      "entry_gap_bps_median": 133.80066204901388
+    },
+    {
+      "base": "FIL",
+      "episodes": 8,
+      "reasons": {
+        "observation_skew": 2,
+        "invalid_book": 1,
+        "below_threshold": 5
+      },
+      "duration": {
+        "count": 8,
+        "median_seconds": 0.7244404554367065,
+        "max_seconds": 13.562079191207886
+      },
+      "first_net_usdt_median": 0.054432006000000005,
+      "entry_gap_bps_median": 119.79384961024601
+    },
+    {
+      "base": "AKE",
+      "episodes": 8,
+      "reasons": {
+        "observation_skew": 1,
+        "invalid_book": 4,
+        "below_threshold": 3
+      },
+      "duration": {
+        "count": 8,
+        "median_seconds": 1.3140249252319336,
+        "max_seconds": 14.288765907287598
+      },
+      "first_net_usdt_median": 0.14358198,
+      "entry_gap_bps_median": 189.40744753681616
+    },
+    {
+      "base": "CATI",
+      "episodes": 5,
+      "reasons": {
+        "below_threshold": 3,
+        "observation_skew": 2
+      },
+      "duration": {
+        "count": 5,
+        "median_seconds": 0.6444499492645264,
+        "max_seconds": 5.965649843215942
+      },
+      "first_net_usdt_median": 0.05868294956,
+      "entry_gap_bps_median": 122.65766459310335
+    },
+    {
+      "base": "C",
+      "episodes": 4,
+      "reasons": {
+        "observation_skew": 1,
+        "invalid_book": 2,
+        "below_threshold": 1
+      },
+      "duration": {
+        "count": 4,
+        "median_seconds": 3.8087854385375977,
+        "max_seconds": 5.145736932754517
+      },
+      "first_net_usdt_median": 0.062343465,
+      "entry_gap_bps_median": 125.23009725292283
+    },
+    {
+      "base": "AZTEC",
+      "episodes": 4,
+      "reasons": {
+        "observation_skew": 1,
+        "below_threshold": 3
+      },
+      "duration": {
+        "count": 4,
+        "median_seconds": 1.6246039867401123,
+        "max_seconds": 2.9904348850250244
+      },
+      "first_net_usdt_median": 0.0673390516,
+      "entry_gap_bps_median": 131.27334884435416
+    },
+    {
+      "base": "H",
+      "episodes": 4,
+      "reasons": {
+        "below_threshold": 3,
+        "observation_skew": 1
+      },
+      "duration": {
+        "count": 4,
+        "median_seconds": 0.5283849239349365,
+        "max_seconds": 5.191262245178223
+      },
+      "first_net_usdt_median": 0.057154140000000006,
+      "entry_gap_bps_median": 122.31808492271797
+    },
+    {
+      "base": "ALLO",
+      "episodes": 4,
+      "reasons": {
+        "observation_skew": 3,
+        "invalid_book": 1
+      },
+      "duration": {
+        "count": 4,
+        "median_seconds": 2.926162600517273,
+        "max_seconds": 3.05696702003479
+      },
+      "first_net_usdt_median": 0.24592176,
+      "entry_gap_bps_median": 253.83262126162353
+    },
+    {
+      "base": "NIL",
+      "episodes": 4,
+      "reasons": {
+        "observation_skew": 3,
+        "invalid_book": 1
+      },
+      "duration": {
+        "count": 4,
+        "median_seconds": 3.0191208124160767,
+        "max_seconds": 11.700708866119385
+      },
+      "first_net_usdt_median": 0.323612952,
+      "entry_gap_bps_median": 305.8510638297872
+    },
+    {
+      "base": "BOME",
+      "episodes": 4,
+      "reasons": {
+        "below_threshold": 3,
+        "invalid_book": 1
+      },
+      "duration": {
+        "count": 4,
+        "median_seconds": 0.3794049024581909,
+        "max_seconds": 26.307349920272827
+      },
+      "first_net_usdt_median": 0.05671276,
+      "entry_gap_bps_median": 123.5285382368577
+    },
+    {
+      "base": "MNT",
+      "episodes": 3,
+      "reasons": {
+        "below_threshold": 2,
+        "observation_skew": 1
+      },
+      "duration": {
+        "count": 3,
+        "median_seconds": 0.46538805961608887,
+        "max_seconds": 0.5207750797271729
+      },
+      "first_net_usdt_median": 0.0595386,
+      "entry_gap_bps_median": 124.84197218710493
+    },
+    {
+      "base": "FLOCK",
+      "episodes": 3,
+      "reasons": {
+        "observation_skew": 3
+      },
+      "duration": {
+        "count": 3,
+        "median_seconds": 6.939270257949829,
+        "max_seconds": 10.557066917419434
+      },
+      "first_net_usdt_median": 0.1450236,
+      "entry_gap_bps_median": 182.19461697722568
+    },
+    {
+      "base": "STRK",
+      "episodes": 3,
+      "reasons": {
+        "below_threshold": 3
+      },
+      "duration": {
+        "count": 3,
+        "median_seconds": 1.9092488288879395,
+        "max_seconds": 6.502641916275024
+      },
+      "first_net_usdt_median": 0.050440096,
+      "entry_gap_bps_median": 116.8920467568187
+    },
+    {
+      "base": "US",
+      "episodes": 3,
+      "reasons": {
+        "below_threshold": 1,
+        "observation_skew": 1,
+        "invalid_book": 1
+      },
+      "duration": {
+        "count": 3,
+        "median_seconds": 0.5204930305480957,
+        "max_seconds": 21.73777198791504
+      },
+      "first_net_usdt_median": 0.06493326,
+      "entry_gap_bps_median": 127.08237308224139
+    },
+    {
+      "base": "CROSS",
+      "episodes": 2,
+      "reasons": {
+        "below_threshold": 2
+      },
+      "duration": {
+        "count": 2,
+        "median_seconds": 1.797155499458313,
+        "max_seconds": 3.2777459621429443
+      },
+      "first_net_usdt_median": 0.052836055,
+      "entry_gap_bps_median": 118.76877945693124
+    },
+    {
+      "base": "DYDX",
+      "episodes": 2,
+      "reasons": {
+        "observation_skew": 1,
+        "invalid_book": 1
+      },
+      "duration": {
+        "count": 2,
+        "median_seconds": 2.9648698568344116,
+        "max_seconds": 3.1256327629089355
+      },
+      "first_net_usdt_median": 0.06484082999999999,
+      "entry_gap_bps_median": 127.07062748534224
+    },
+    {
+      "base": "M",
+      "episodes": 2,
+      "reasons": {
+        "observation_skew": 1,
+        "invalid_book": 1
+      },
+      "duration": {
+        "count": 2,
+        "median_seconds": 7.807585835456848,
+        "max_seconds": 8.200923919677734
+      },
+      "first_net_usdt_median": 0.38675085,
+      "entry_gap_bps_median": 354.9985035517054
+    },
+    {
+      "base": "UAI",
+      "episodes": 1,
+      "reasons": {
+        "below_threshold": 1
+      },
+      "duration": {
+        "count": 1,
+        "median_seconds": 0.6348769664764404,
+        "max_seconds": 0.6348769664764404
+      },
+      "first_net_usdt_median": 0.05706106,
+      "entry_gap_bps_median": 121.66395492848297
+    },
+    {
+      "base": "COOKIE",
+      "episodes": 1,
+      "reasons": {
+        "below_threshold": 1
+      },
+      "duration": {
+        "count": 1,
+        "median_seconds": 0.10667586326599121,
+        "max_seconds": 0.10667586326599121
+      },
+      "first_net_usdt_median": 0.053959724,
+      "entry_gap_bps_median": 119.32951426227359
+    },
+    {
+      "base": "COW",
+      "episodes": 1,
+      "reasons": {
+        "invalid_book": 1
+      },
+      "duration": {
+        "count": 1,
+        "median_seconds": 1.191673994064331,
+        "max_seconds": 1.191673994064331
+      },
+      "first_net_usdt_median": 0.057385278,
+      "entry_gap_bps_median": 121.85686653771761
+    },
+    {
+      "base": "HOME",
+      "episodes": 1,
+      "reasons": {
+        "below_threshold": 1
+      },
+      "duration": {
+        "count": 1,
+        "median_seconds": 0.10461902618408203,
+        "max_seconds": 0.10461902618408203
+      },
+      "first_net_usdt_median": 0.05606572,
+      "entry_gap_bps_median": 120.82670906200318
+    }
+  ],
+  "limitations": [
+    "Ticker identity unverified; zero verified round trips.",
+    "Overlapping runs are included; episode IDs are deduplicated but economic opportunities are not.",
+    "Interrupted duration is a censored observation, not a spread lifetime.",
+    "First-observation economics assume future convergence; neither peaks nor episode counts are earnings."
+  ]
+}

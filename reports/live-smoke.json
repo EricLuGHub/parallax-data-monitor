@@ -1,0 +1,39 @@
+{
+  "run_id": "eedb69d2244f4164a755cca7ce750f64",
+  "markets": 4182,
+  "coins": 498,
+  "routes": 757,
+  "screening": {
+    "interval_seconds": 5,
+    "screened_routes": 757,
+    "queued_routes": 8,
+    "last_scan": 1789849009.468246,
+    "mode": "all-symbol quotes; bounded depth queue; brief gaps can be missed"
+  },
+  "reviewed_routes": 4,
+  "verified_candidates": 0,
+  "network": {
+    "received_bytes": 7259331,
+    "receive_kib_s": 153.27,
+    "budget_kib_s": 256.0,
+    "requests": 105,
+    "errors": 0,
+    "last_latency_ms": 234,
+    "stopped_reason": null,
+    "measurement": "HTTP compressed payload; excludes TLS/header overhead; 30s circuit breaker, not a router traffic shaper"
+  },
+  "paper_summary": {
+    "open": 0,
+    "pending": 0,
+    "closed": 0,
+    "rejected": 0,
+    "realized_usdt": 0,
+    "reserved_usdt": {}
+  },
+  "status_counts": {
+    "screen_only": 749,
+    "insufficient_depth": 4,
+    "screen_gap": 2,
+    "unverified_gap": 2
+  }
+}
