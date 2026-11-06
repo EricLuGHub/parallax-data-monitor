@@ -1,0 +1,70 @@
+ARBITRAGE_RESEARCH_SPEC.md
+  h_cfaa6c94fbb9b5 1-390
+IMPLEMENTATION_STATUS.md
+  h_cfaa6c94fbb9b5 1-17
+README.md
+  h_cfaa6c94fbb9b5 1-68
+parallax/adapters.py
+  h_cfaa6c94fbb9b5 1-184
+parallax/api.py
+  h_cfaa6c94fbb9b5 1-100
+parallax/engine.py
+  h_cfaa6c94fbb9b5 1-142
+parallax/identity.py
+  h_cfaa6c94fbb9b5 1-18
+parallax/instance.py
+  h_cfaa6c94fbb9b5 1-16
+parallax/models.py
+  h_cfaa6c94fbb9b5 1-109
+parallax/network.py
+  h_cfaa6c94fbb9b5 1-52
+parallax/paper.py
+  h_cfaa6c94fbb9b5 1-132
+parallax/polling.py
+  h_cfaa6c94fbb9b5 1-209
+parallax/storage.py
+  h_cfaa6c94fbb9b5 1-76
+pyproject.toml
+  h_cfaa6c94fbb9b5 1-10
+reports/INITIAL_FINDINGS.md
+  h_cfaa6c94fbb9b5 1-80
+reports/PAPER_TRADING_V2.md
+  h_cfaa6c94fbb9b5 1-53
+reports/identity-gate-evidence.json
+  h_cfaa6c94fbb9b5 1-140
+reports/live-smoke.json
+  h_cfaa6c94fbb9b5 1-39
+reports/paper-results.json
+  h_cfaa6c94fbb9b5 1-133
+reports/recording-audit.json
+  h_cfaa6c94fbb9b5 1-737
+requirements.lock.txt
+  h_cfaa6c94fbb9b5 1-23
+scripts/analyze_recording.py
+  h_cfaa6c94fbb9b5 1-45
+scripts/paper_report.py
+  h_cfaa6c94fbb9b5 1-29
+scripts/run.sh
+  h_cfaa6c94fbb9b5 1-8
+scripts/serve.py
+  h_cfaa6c94fbb9b5 1-27
+tests/test_api.py
+  h_cfaa6c94fbb9b5 1-18
+tests/test_instance.py
+  h_cfaa6c94fbb9b5 1-12
+tests/test_paper.py
+  h_cfaa6c94fbb9b5 1-141
+tests/test_research.py
+  h_cfaa6c94fbb9b5 1-84
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "b913f70bca831719f44331ccb12b12c12588dc12",
+  "prompts": {},
+  "humans": {
+    "h_cfaa6c94fbb9b5": {
+      "author": "ericlu <erickandmorty2013@gmail.com>"
+    }
+  }
+}
